@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bb8test
+  host: bb8test
+  disk_quota: 1024M
+  services:
+  - Internet of Things Platform-px
+  - bb8test-cloudantNoSQLDB
